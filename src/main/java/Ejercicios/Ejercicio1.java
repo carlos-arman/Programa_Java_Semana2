@@ -20,7 +20,7 @@ public class Ejercicio1 {
         double rebaja ;
         double PrecioTotal;
         double IVA ;       
-        System.out.println("Ingrese el precio de la Computadora: "); 
+        System.out.println("Ingrese el precio de la Computadora: $"); 
         PrecioPC = precio.nextDouble();
         
         rebaja = PrecioPC * 0.15;
@@ -29,7 +29,7 @@ public class Ejercicio1 {
         //Agregar decimales a numeros
         DecimalFormat Deci = new DecimalFormat("###,###.##");
         
-        System.out.println("El precio a pagar es: " + Deci.format(PrecioTotal));
+        System.out.println("El precio a pagar es: $" + Deci.format(PrecioTotal));
         System.out.println("IVA agregado: $" + IVA);
-}
+    }
 }
