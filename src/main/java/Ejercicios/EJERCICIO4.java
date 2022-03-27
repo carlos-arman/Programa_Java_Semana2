@@ -41,9 +41,10 @@ public class EJERCICIO4 {
          salarioVendegado = salario + totalcomision - totalRenta;
          
         //IMPRIMIR LOS DATOS EN PANTALLA
+        System.out.println("-------------------------------");
         System.out.println("Nombre del personal: " + nombre);
-        System.out.println("concepto de renta retenido: " + df.format(totalRenta));
-        System.out.println("Salario devengado: "+ df.format(salarioVendegado));
+        System.out.println("concepto de renta retenido: $" + df.format(totalRenta));
+        System.out.println("Salario devengado: $"+ df.format(salarioVendegado));
         
     }
 }
