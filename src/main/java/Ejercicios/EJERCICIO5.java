@@ -47,7 +47,7 @@ public class EJERCICIO5 {
         
         
         public void DescuentaTardias(){
-            DescuentoT =  60 % llegadasTMinutos  ;
+            DescuentoT =  llegadasTMinutos %  60  ;
         }
         public void TotalT(){
              DescuentoLLT =  DescuentoT *SalarioM ;
